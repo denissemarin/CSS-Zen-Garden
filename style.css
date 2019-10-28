@@ -1,0 +1,294 @@
+/* @font-face {
+	font-family: Titillium;
+	src: url("https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap");
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:500&display=swap");
+body{
+	font-family: 'Red Hat Display', sans-serif;
+	background-image: url("/Users/denissemarin/Desktop/DigitalMediaIV/CSSZenGarden/oldfloral.jpg");
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: bottom left;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:500|Titillium+Web:700&display=swap');
+h1{
+	font-family: font-family: 'Titillium Web', sans-serif;
+	font-size: 100px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-left: 255px;
+}
+
+/* h1{
+	font-family: Titillium Web Bold;
+	font-size: 100px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-left: 310px;
+} */
+
+h2{
+	font-family: 'Red Hat Display', sans-serif;
+	margin-top: 0px;
+	margin-left: 703px;
+	font-size: 25px;
+	color: #FF7555;
+}
+
+h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:25px;
+}
+
+a{
+	color: #FF7555;
+}
+
+a:visited{
+  color: #DD1F00;
+}
+
+#zen-summary{
+	width:700px;
+	margin-top: 60px;
+	margin-left: 470px;
+	font-size: 16px;
+	color: #7F7F7F;
+	/* outline: solid black 1px; */
+}
+
+#zen-preamble{
+	width:700px;
+	margin-left: 470px;
+	margin-right: 100px;
+	line-height: 150%;
+}
+
+#zen-supporting{
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 470px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	line-height: 165%;
+}
+
+li{
+	list-style: none;
+	margin-left: -40px;
+}
+
+.select{
+	font-size:18px;
+	margin-top: 0px;
+}
+
+.archives{
+	font-size:18px;
+	margin-top: 40px;
+}
+
+.resources{
+	font-size:18px;
+	margin-top: 40px;
+}
+
+.page-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrapper{
+	position: absolute;
+	top: 0;
+	left:0;
+	margin-top: 273px;
+	margin-left: 80px;
+	width: 380px;
+	/* outline: solid black 1px; */
+}
+
+@media (max-width: 1024px) {
+	body{
+		font-family: 'Red Hat Display', sans-serif;
+		background-image: url("/Users/denissemarin/Desktop/DigitalMediaIV/CSSZenGarden/floraltablet.jpg");
+		background-repeat: no-repeat;
+		background-size: 38%;
+		background-position: bottom left;
+
+	}
+	h1{
+		font-family: font-family: 'Titillium Web', sans-serif;
+		font-size: 70px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+		margin-left: 185px;
+	}
+	h2{
+		font-family: 'Red Hat Display', sans-serif;
+		margin-top: 0px;
+		margin-left: 446px;
+		font-size: 22px;
+		color: #FF7555;
+	}
+
+	h3{
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 22px;
+	}
+
+	#zen-summary{
+		width:700px;
+		margin-top: 60px;
+		margin-left: 90px;
+		font-size: 13px;
+		color: #7F7F7F;
+		/* outline: solid black 1px; */
+	}
+
+	#zen-preamble{
+		width:445px;
+		margin-top: 60px;
+		margin-left: 380px;
+		margin-right: 0px;
+		line-height: 150%;
+	}
+
+	#zen-supporting{
+		width: 445px;
+		margin-top: 20px;
+		margin-left: 380px;
+		margin-right: 0px;
+		margin-bottom: 100px;
+		line-height: 165%;
+	}
+
+	li{
+		list-style: none;
+		margin-left: -40px;
+		font-size: 14px;
+	}
+
+	.select{
+		font-size:18px;
+		margin-top: 0px;
+	}
+
+	.archives{
+		font-size:18px;
+		margin-top: 40px;
+	}
+
+	.resources{
+		font-size:18px;
+		margin-top: 40px;
+	}
+
+	.wrapper{
+		position: absolute;
+		margin-top: 353px;
+		margin-left: 98px;
+		width: 200px;
+		/* outline: solid black 1px; */
+	}
+
+
+
+
+
+
+
+
+
+/* for mobile phones */
+@media screen and (max-width: 700px) {
+	body{
+		font-family: 'Red Hat Display', sans-serif;
+		background-image: url("/Users/denissemarin/Desktop/DigitalMediaIV/CSSZenGarden/floraltablet copy.jpg");
+		background-size: 0%;
+	}
+
+	h1{
+		font-family: font-family: 'Titillium Web', sans-serif;
+		font-size: 45px;
+		margin-top: 30px;
+		margin-bottom: 0px;
+		margin-left: 65px;
+	}
+
+	h2{
+		font-family: 'Red Hat Display', sans-serif;
+		margin-top: 0px;
+		margin-left: 65px;
+		font-size: 18px;
+		color: #FF7555;
+	}
+
+	h3{
+		font-family: 'Titillium Web', sans-serif;
+		font-size:18px;
+	}
+
+	#zen-summary{
+		width:400px;
+		margin-top: 10px;
+		margin-bottom: 45px;
+		margin-left: 65px;
+		font-size: 12px;
+		color: #7F7F7F;
+		/* outline: solid black 1px; */
+	}
+
+	#zen-preamble{
+		width:390px;
+		margin-left: 65px;
+		margin-right: 10px;
+		font-size: 13px;
+		line-height: 150%;
+	}
+
+	#zen-supporting{
+		width: 390px;
+		margin-left: 65px;
+		margin-right: 10px;
+		margin-top: 0px;
+		margin-bottom: 100px;
+		font-size: 13px;
+		line-height: 165%;
+	}
+
+	li{
+		list-style: none;
+		font-size: 13px;
+		margin-top: 5px;
+	}
+
+	.select{
+		font-size:18px;
+		margin-top: 0px;
+	}
+
+	.archives{
+		font-size:18px;
+		margin-top: 270px;
+	}
+
+	.resources{
+		font-size:18px;
+		margin-top: -98px;
+	}
+
+	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		/* top: 0;
+		left:0; */
+		margin-top: 2200px;
+		margin-bottom: 20px;
+		margin-left: 65px;
+		width: 450px;
+	}
+	}
